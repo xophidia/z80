@@ -1,0 +1,3 @@
+-define(NB_INSTRUCTION, 70000).
+-record(flag,{s=0, z=0, h=0, p=0, n=0, c=0}).
+-record(reg, {a=0, f=0, b=0, c=0, d=0, e=0, h=0, l=0, ix=0, iy=0, sp=16#dff0, pc=1, i=0, r=0, flag= #flag{}, data}).
