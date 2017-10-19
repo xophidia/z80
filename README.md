@@ -18,6 +18,7 @@ Encore beaucoup beaucoup de chose à faire
 c(z80).   
 z80:open().   
 
+Ajout des opcodes dans une liste :
 ```
 ListB = [0,16#4,16#3E,60,16#3C,16#3D,0,0,0]
 inc b
